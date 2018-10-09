@@ -69,7 +69,7 @@
             <children xmi:type="notation:BasicDecorationNode" xmi:id="_EkSVgMYuEei3m4nDcJ-92w" type="Name"/>
             <children xmi:type="notation:BasicDecorationNode" xmi:id="_EkSVgcYuEei3m4nDcJ-92w" type="Parent"/>
             <children xmi:type="notation:ListCompartment" xmi:id="_EkSVgsYuEei3m4nDcJ-92w" visible="false" type="Extension_Points"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EkRHYcYuEei3m4nDcJ-92w" x="19272" y="14256"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EkRHYcYuEei3m4nDcJ-92w" x="8844" y="14388"/>
           </children>
           <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_3l-2kMYuEei3m4nDcJ-92w" element="_3l5-EMYuEei3m4nDcJ-92w" fontName="Cantarell" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
             <children xmi:type="notation:DecorationNode" xmi:id="_3mAEsMYuEei3m4nDcJ-92w" type="ImageCompartment">
@@ -1196,7 +1196,11 @@
           </contents>
         </eAnnotations>
       </packagedElement>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_esP5sMYqEei3m4nDcJ-92w" name="Definir Objectif"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_esP5sMYqEei3m4nDcJ-92w" name="Definir Objectif">
+        <ownedComment xmi:id="_EWAa8MuqEeikKPAJvbK7fA" annotatedElement="_esP5sMYqEei3m4nDcJ-92w">
+          <body>&lt;p>Definir objectif&lt;/p>&lt;p>Acteur : Utilisateur&lt;/p>&lt;p>Préconditions: Aucune&lt;/p>&lt;p>Séquencement nominal&lt;/p>&lt;p>1. L'utilisateur choisit de definir les objectifs de sa partie&lt;/p>&lt;p>2. Le système verifie que le joueur a définit le fonctionnement du jeu&lt;/p>&lt;p>3. Le système affiche la page d'entrée des objectifs de partie&lt;/p>&lt;p>4. Le joueur entre les objectifs et valide&lt;/p>&lt;p>Enchaînement alternatifs:&lt;/p>&lt;p>A1: Le joueur n'as pas rentré le fonctionnement du jeu&lt;/p>&lt;p>L'enchainement commence après le point 2 de la séquence nominale&lt;/p>&lt;blockquote>&lt;p>3. Appel du cas &amp;lt;&amp;lt;Definir fonctionnement du jeu&amp;gt;&amp;gt;&lt;/p>&lt;/blockquote>&lt;p>La séquence nominale reprend au point 3.&lt;/p>&lt;p>&lt;/p></body>
+        </ownedComment>
+      </packagedElement>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_gZuvMMYqEei3m4nDcJ-92w" name="Appuyer Bouton Calculer"/>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_iAG3IMYqEei3m4nDcJ-92w" name="Voir BO"/>
       <packagedElement xmi:type="uml:Class" xmi:id="_vFD7MMYqEei3m4nDcJ-92w" name="BO">
@@ -1370,7 +1374,11 @@
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IB6S8MYuEei3m4nDcJ-92w" value="1"/>
         </ownedEnd>
       </packagedElement>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_3l5-EMYuEei3m4nDcJ-92w" name="Obtenir BO Optimisé"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_3l5-EMYuEei3m4nDcJ-92w" name="Obtenir BO Optimisé">
+        <ownedComment xmi:id="_luj7EMuqEeikKPAJvbK7fA" annotatedElement="_3l5-EMYuEei3m4nDcJ-92w">
+          <body>&lt;p>Obtenir BO optimisé&lt;/p>&lt;p>&lt;/p>&lt;p>Description : l'utilisateur demande au système le BO optimisé&lt;/p>&lt;p>Acteur : Utilisateur&lt;/p>&lt;p>Preconditions: Aucune&lt;/p>&lt;p>Sequencement nominal&lt;/p>&lt;p>1.L'utilisateur choisit d'obtenir le BO optimisé&lt;/p>&lt;p>2.Le système vérifie que le fonctionnement du jeu a été definit&lt;/p>&lt;p>3.Le système  verifie que les objectifs on été définit&lt;/p>&lt;p>4. Le système calcule le BO optimisé&lt;/p>&lt;p>5.Le système affiche le BO&lt;/p>&lt;p>&lt;/p>&lt;p>Enchainement alternatifs&lt;/p>&lt;p>A1:L'utilisateur n'a pas rentré le fonctionnement du jeu&lt;/p>&lt;p>L'enchainement commence après le point 2&lt;/p>&lt;blockquote>&lt;p>3.Appel du cas &amp;lt;&amp;lt;Definir fonctionnement du jeu&amp;gt;&amp;gt;&lt;/p>&lt;/blockquote>&lt;p>L'enchainement reprend au point 3&lt;/p>&lt;p >A2 :L'utilisateur n'a pas rentré les objectifs du jeu&lt;/p>&lt;p >L'enchainement commence après le point 3&lt;/p>&lt;blockquote >&lt;p >3.Appel du cas &amp;lt;&amp;lt;Definir objectifs&amp;gt;&amp;gt;&lt;/p>&lt;/blockquote>&lt;p >L'enchainement reprend au point 4&lt;/p></body>
+        </ownedComment>
+      </packagedElement>
       <packagedElement xmi:type="uml:Association" xmi:id="_7GNcEMYuEei3m4nDcJ-92w" memberEnd="_7GOqMMYuEei3m4nDcJ-92w _7GQfYMYuEei3m4nDcJ-92w" navigableOwnedEnd="_7GOqMMYuEei3m4nDcJ-92w _7GQfYMYuEei3m4nDcJ-92w">
         <ownedEnd xmi:id="_7GOqMMYuEei3m4nDcJ-92w" name="obtenir BO Optimisé" visibility="private" type="_3l5-EMYuEei3m4nDcJ-92w" association="_7GNcEMYuEei3m4nDcJ-92w">
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_7GP4UMYuEei3m4nDcJ-92w" value="1"/>
@@ -1404,4 +1412,6 @@
   <Default:Documentation xmi:id="_bmOSwMuiEeiLi7QiVm6lNA" base_Comment="_bjnDoMuiEeiLi7QiVm6lNA"/>
   <Default:Documentation xmi:id="_cvHtIMulEeiLi7QiVm6lNA" base_Comment="_cvF38MulEeiLi7QiVm6lNA"/>
   <Default:Documentation xmi:id="_S3XIYMumEeiLi7QiVm6lNA" base_Comment="_S3V6QMumEeiLi7QiVm6lNA"/>
+  <Default:Documentation xmi:id="_EWC3MMuqEeikKPAJvbK7fA" base_Comment="_EWAa8MuqEeikKPAJvbK7fA"/>
+  <Default:Documentation xmi:id="_lulwQMuqEeikKPAJvbK7fA" base_Comment="_luj7EMuqEeikKPAJvbK7fA"/>
 </xmi:XMI>
