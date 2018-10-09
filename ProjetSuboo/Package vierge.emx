@@ -1375,7 +1375,11 @@
       </packagedElement>
       <packagedElement xmi:type="uml:Association" xmi:id="_wjG7oMYsEei3m4nDcJ-92w" memberEnd="_wjIJwMYsEei3m4nDcJ-92w _wjJ-8MYsEei3m4nDcJ-92w"/>
       <packagedElement xmi:type="uml:Association" xmi:id="_x4VpMMYsEei3m4nDcJ-92w" memberEnd="_x4W3UMYsEei3m4nDcJ-92w _x4YsgMYsEei3m4nDcJ-92w"/>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_dkI6wMYtEei3m4nDcJ-92w" name="Definier etat actuel du jeu"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_dkI6wMYtEei3m4nDcJ-92w" name="Definier etat actuel du jeu">
+        <ownedComment xmi:id="_S3V6QMumEeiLi7QiVm6lNA" annotatedElement="_dkI6wMYtEei3m4nDcJ-92w">
+          <body>&lt;p>Definir état actuel du jeu&lt;/p>&lt;p>Description : L'utilisateur rentre l'etat actuel de la partie qu'il a commencé&lt;/p>&lt;p>Preconditions: Aucune&lt;/p>&lt;p>Sequence nominal:&lt;/p>&lt;p>1. Le joueur choisit de definir l'etat actuel du jeu&lt;/p>&lt;p>2. Le système verifie que le fonctionnement du jeu a été rentré auparavant&lt;/p>&lt;p>3. Le système affiche la page d'entrée de l'etat du jeu&lt;/p>&lt;p>4. Le joueur definit l'etat du jeu et valide&lt;/p>&lt;p>&lt;/p>&lt;p>Enchainement Alternatif&lt;/p>&lt;p>A1: Le fonctionnement du jeu n'a pas été entré&lt;/p>&lt;blockquote>&lt;p>L'enchainement demarre après le point 2&lt;/p>&lt;blockquote>&lt;p>3. Appel du cas &amp;lt;&amp;lt;Definir fonctionnement du jeu&amp;gt;&amp;gt;&lt;/p>&lt;/blockquote>&lt;p>La séquence nominale reprend au point 3&lt;/p>&lt;p>&lt;/p>&lt;/blockquote>&lt;p>&lt;/p></body>
+        </ownedComment>
+      </packagedElement>
       <packagedElement xmi:type="uml:Association" xmi:id="_f7InUMYtEei3m4nDcJ-92w" memberEnd="_f7J1cMYtEei3m4nDcJ-92w _f7LqoMYtEei3m4nDcJ-92w" navigableOwnedEnd="_f7J1cMYtEei3m4nDcJ-92w _f7LqoMYtEei3m4nDcJ-92w">
         <ownedEnd xmi:id="_f7J1cMYtEei3m4nDcJ-92w" name="definier etat actuel du jeu" visibility="private" type="_dkI6wMYtEei3m4nDcJ-92w" association="_f7InUMYtEei3m4nDcJ-92w">
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_f7LDkMYtEei3m4nDcJ-92w" value="1"/>
@@ -1449,4 +1453,5 @@
   </uml:Package>
   <Default:Documentation xmi:id="_bmOSwMuiEeiLi7QiVm6lNA" base_Comment="_bjnDoMuiEeiLi7QiVm6lNA"/>
   <Default:Documentation xmi:id="_cvHtIMulEeiLi7QiVm6lNA" base_Comment="_cvF38MulEeiLi7QiVm6lNA"/>
+  <Default:Documentation xmi:id="_S3XIYMumEeiLi7QiVm6lNA" base_Comment="_S3V6QMumEeiLi7QiVm6lNA"/>
 </xmi:XMI>
