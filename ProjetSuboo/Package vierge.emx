@@ -41,16 +41,6 @@
             <children xmi:type="notation:ListCompartment" xmi:id="_esVZQMYqEei3m4nDcJ-92w" visible="false" type="Extension_Points"/>
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_esTkEcYqEei3m4nDcJ-92w" x="10032" y="10164"/>
           </children>
-          <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_gZxLcMYqEei3m4nDcJ-92w" element="_gZuvMMYqEei3m4nDcJ-92w" fontName="Cantarell" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
-            <children xmi:type="notation:DecorationNode" xmi:id="_gZxLcsYqEei3m4nDcJ-92w" type="ImageCompartment">
-              <layoutConstraint xmi:type="notation:Size" xmi:id="_gZxLc8YqEei3m4nDcJ-92w" width="2216" height="1322"/>
-            </children>
-            <children xmi:type="notation:BasicDecorationNode" xmi:id="_gZxLdMYqEei3m4nDcJ-92w" type="Stereotype"/>
-            <children xmi:type="notation:BasicDecorationNode" xmi:id="_gZxLdcYqEei3m4nDcJ-92w" type="Name"/>
-            <children xmi:type="notation:BasicDecorationNode" xmi:id="_gZxLdsYqEei3m4nDcJ-92w" type="Parent"/>
-            <children xmi:type="notation:ListCompartment" xmi:id="_gZxygMYqEei3m4nDcJ-92w" visible="false" type="Extension_Points"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gZxLccYqEei3m4nDcJ-92w" x="12408" y="16896"/>
-          </children>
           <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_iALIkMYqEei3m4nDcJ-92w" element="_iAG3IMYqEei3m4nDcJ-92w" fontName="Cantarell" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
             <children xmi:type="notation:DecorationNode" xmi:id="_iALvoMYqEei3m4nDcJ-92w" type="ImageCompartment">
               <layoutConstraint xmi:type="notation:Size" xmi:id="_iALvocYqEei3m4nDcJ-92w" width="2216" height="1322"/>
@@ -141,46 +131,6 @@
               <layoutConstraint xmi:type="notation:Location" xmi:id="_RMI4xMYsEei3m4nDcJ-92w" y="1058"/>
             </children>
             <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_RMEnUcYsEei3m4nDcJ-92w" points="[22, -10, -242, 110]$[216, -113, -48, 7]"/>
-          </edges>
-          <edges xmi:type="umlnotation:UMLConnector" xmi:id="_RzcJUMYsEei3m4nDcJ-92w" element="_RzPVAMYsEei3m4nDcJ-92w" source="_Yg4n0MYjEei3m4nDcJ-92w" target="_gZxLcMYqEei3m4nDcJ-92w" fontName="Cantarell" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
-            <children xmi:type="notation:DecorationNode" xmi:id="_RzcwYMYsEei3m4nDcJ-92w" type="NameLabel">
-              <children xmi:type="notation:BasicDecorationNode" xmi:id="_RzdXcMYsEei3m4nDcJ-92w" type="Stereotype"/>
-              <children xmi:type="notation:BasicDecorationNode" xmi:id="_RzdXccYsEei3m4nDcJ-92w" type="Name"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RzcwYcYsEei3m4nDcJ-92w" y="-186"/>
-            </children>
-            <children xmi:type="notation:DecorationNode" xmi:id="_RzdXcsYsEei3m4nDcJ-92w" visible="false" type="ToMultiplicityLabel" element="_RzSYUMYsEei3m4nDcJ-92w">
-              <children xmi:type="notation:BasicDecorationNode" xmi:id="_Rzd-gMYsEei3m4nDcJ-92w" type="ToMultiplicity"/>
-              <layoutConstraint xmi:type="notation:Location" xmi:id="_RzdXc8YsEei3m4nDcJ-92w" y="396"/>
-            </children>
-            <children xmi:type="notation:DecorationNode" xmi:id="_Rzd-gcYsEei3m4nDcJ-92w" visible="false" type="ToRoleLabel" element="_RzSYUMYsEei3m4nDcJ-92w">
-              <children xmi:type="notation:BasicDecorationNode" xmi:id="_RzelkMYsEei3m4nDcJ-92w" type="ToRole"/>
-              <layoutConstraint xmi:type="notation:Location" xmi:id="_Rzd-gsYsEei3m4nDcJ-92w" y="-397"/>
-            </children>
-            <children xmi:type="notation:DecorationNode" xmi:id="_RzelkcYsEei3m4nDcJ-92w" visible="false" type="FromMultiplicityLabel" element="_RzQjIMYsEei3m4nDcJ-92w">
-              <children xmi:type="notation:BasicDecorationNode" xmi:id="_Rzelk8YsEei3m4nDcJ-92w" type="FromMultiplicity"/>
-              <layoutConstraint xmi:type="notation:Location" xmi:id="_RzelksYsEei3m4nDcJ-92w" y="396"/>
-            </children>
-            <children xmi:type="notation:DecorationNode" xmi:id="_RzellMYsEei3m4nDcJ-92w" visible="false" type="FromRoleLabel" element="_RzQjIMYsEei3m4nDcJ-92w">
-              <children xmi:type="notation:BasicDecorationNode" xmi:id="_RzfMoMYsEei3m4nDcJ-92w" type="FromRole"/>
-              <layoutConstraint xmi:type="notation:Location" xmi:id="_RzellcYsEei3m4nDcJ-92w" y="-397"/>
-            </children>
-            <children xmi:type="notation:DecorationNode" xmi:id="_RzfMocYsEei3m4nDcJ-92w" type="ToQualifierLabel" element="_RzSYUMYsEei3m4nDcJ-92w">
-              <children xmi:type="notation:SemanticListCompartment" xmi:id="_RzfMo8YsEei3m4nDcJ-92w" type="QualifierCompartment"/>
-              <layoutConstraint xmi:type="notation:Location" xmi:id="_RzfMosYsEei3m4nDcJ-92w" y="-186"/>
-            </children>
-            <children xmi:type="notation:DecorationNode" xmi:id="_RzfMpMYsEei3m4nDcJ-92w" type="FromQualifierLabel" element="_RzQjIMYsEei3m4nDcJ-92w">
-              <children xmi:type="notation:SemanticListCompartment" xmi:id="_RzfzsMYsEei3m4nDcJ-92w" type="QualifierCompartment"/>
-              <layoutConstraint xmi:type="notation:Location" xmi:id="_RzfMpcYsEei3m4nDcJ-92w" y="-186"/>
-            </children>
-            <children xmi:type="notation:DecorationNode" xmi:id="_RzfzscYsEei3m4nDcJ-92w" type="ToConstraintLabel" element="_RzSYUMYsEei3m4nDcJ-92w">
-              <children xmi:type="notation:ListCompartment" xmi:id="_Rzfzs8YsEei3m4nDcJ-92w" type="ToConstraintCompartment"/>
-              <layoutConstraint xmi:type="notation:Location" xmi:id="_RzfzssYsEei3m4nDcJ-92w" y="1058"/>
-            </children>
-            <children xmi:type="notation:DecorationNode" xmi:id="_RzfztMYsEei3m4nDcJ-92w" type="FromConstraintLabel" element="_RzQjIMYsEei3m4nDcJ-92w">
-              <children xmi:type="notation:ListCompartment" xmi:id="_RzfztsYsEei3m4nDcJ-92w" type="FromConstraintCompartment"/>
-              <layoutConstraint xmi:type="notation:Location" xmi:id="_RzfztcYsEei3m4nDcJ-92w" y="1058"/>
-            </children>
-            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_RzcJUcYsEei3m4nDcJ-92w" points="[27, -6, -214, 37]$[278, -52, 37, -9]"/>
           </edges>
           <edges xmi:type="umlnotation:UMLConnector" xmi:id="_SgvUMMYsEei3m4nDcJ-92w" element="_Sgif4MYsEei3m4nDcJ-92w" source="_Yg4n0MYjEei3m4nDcJ-92w" target="_iALIkMYqEei3m4nDcJ-92w" fontName="Cantarell" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
             <children xmi:type="notation:DecorationNode" xmi:id="_Sgv7QMYsEei3m4nDcJ-92w" type="NameLabel">
@@ -1436,7 +1386,11 @@
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_f7M4wMYtEei3m4nDcJ-92w" value="1"/>
         </ownedEnd>
       </packagedElement>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_CORgYMYuEei3m4nDcJ-92w" name="obtenir BO Naif"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_CORgYMYuEei3m4nDcJ-92w" name="obtenir BO Naif">
+        <ownedComment xmi:id="_cvF38MulEeiLi7QiVm6lNA" annotatedElement="_CORgYMYuEei3m4nDcJ-92w">
+          <body>&lt;p>bLABLA&lt;/p>&lt;p>&lt;/p></body>
+        </ownedComment>
+      </packagedElement>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_EkMO4MYuEei3m4nDcJ-92w" name="Definir fonctionnement du jeu">
         <ownedComment xmi:id="_bjnDoMuiEeiLi7QiVm6lNA" annotatedElement="_EkMO4MYuEei3m4nDcJ-92w">
           <body>&lt;p>Definir fonctionnement du jeu&lt;/p>&lt;p>Acteur : Utilisateur&lt;/p>&lt;p>Préconditions : Aucune&lt;/p>&lt;p>&lt;/p>&lt;p>Sequence Nominal:&lt;/p>&lt;p>1. Le joueur choisit d'entrer le fonctionnement du jeu&lt;/p>&lt;p>2. Le système affiche la page d'entrée des ressources&lt;/p>&lt;p>3. Le joueur entre les differentes ressources utilisées par le jeu et valide&lt;/p>&lt;p>5. Le système affiche la page d'entrée de l'arbre de technologie&lt;/p>&lt;p>6. Le joueur entre l'arbre de technologie et valide&lt;/p>&lt;p>7. Le système affiche la page d'entrée des entitées (Constructions et unitées)&lt;/p>&lt;p>8. Le joueur entre les differentes entitées créable par le jeu en spécifiant leurs conditions de créations et valide&lt;/p>&lt;p>9. Le système demande la validation&lt;/p>&lt;p>10. Le joueur valide&lt;/p>&lt;p>Enchaînements alternatifs:&lt;/p>&lt;p>A1 : Le jeu ne contient pas d'arbre de technologie&lt;/p>&lt;blockquote>&lt;p>L'enchaînement démarre après le point 5:&lt;/p>&lt;/blockquote>&lt;blockquote>&lt;p>La séquence nominale reprend au point 7&lt;/p>&lt;/blockquote>&lt;p>Enchaînements d'éxception&lt;/p>&lt;p>Post-Conditions:&lt;/p>&lt;p>Le système à enregistré le fonctionnement du jeu &lt;/p>&lt;p>&lt;/p></body>
@@ -1494,4 +1448,5 @@
     </profileApplication>
   </uml:Package>
   <Default:Documentation xmi:id="_bmOSwMuiEeiLi7QiVm6lNA" base_Comment="_bjnDoMuiEeiLi7QiVm6lNA"/>
+  <Default:Documentation xmi:id="_cvHtIMulEeiLi7QiVm6lNA" base_Comment="_cvF38MulEeiLi7QiVm6lNA"/>
 </xmi:XMI>
