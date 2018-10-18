@@ -1552,7 +1552,7 @@
       <packagedElement xmi:type="uml:Actor" xmi:id="_R2f6UNEiEeihY5MaxXauwA" name="IA"/>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_3Ja-QNEiEeihY5MaxXauwA" name="API : Definir etat du jeu">
         <ownedComment xmi:id="_EF9h0NFSEeivyOr-L-pStA" annotatedElement="_3Ja-QNEiEeihY5MaxXauwA">
-          <body>&lt;p>Nom: API: Définir état actuel du jeu&lt;/p>&lt;p>Descrption: L'IA envoit les données de l'état actuel du jeu&lt;/p>&lt;p>Acteur: IA&lt;/p>&lt;p>Pré-conditions: Le fonctionnement du jeu a été initialisé au préalable&lt;/p>&lt;p>Scénario nominal;&lt;/p>&lt;blockquote>&lt;p>1/ L'IA accède à l'API du système.&lt;/p>&lt;p>2/ L'IA appelle la fonction de définition de l'état du jeu avec comme paramètres les données de l'état actuel du jeu (Le nombre d'occurrence de chaque unité et batiment, nombre de PO et N).&lt;/p>&lt;p>3/ Le système vérifie que le fonctionnement du jeu à été initialisé.&lt;/p>&lt;p>4/ Le système vérifie que les données reçues sont valides.&lt;/p>&lt;p>5/ Le système initialise ou met à jour l'état du jeu.&lt;/p>&lt;/blockquote>&lt;p>Enchainement alternatif:&lt;/p>&lt;p>A1: Le fonctionnement du jeu n'a pas été initialisé&lt;/p>&lt;blockquote>&lt;p>L'enchainement commence après le point 3&lt;/p>&lt;p>1. Le système demande à l'IA les données de fonctionnement du jeu&lt;/p>&lt;p>2. L'IA fait appel à la fonction de définition du fonctionnement du jeu (Use case: Définir état actuel du jeu)&lt;/p>&lt;p>La séquence reprend au point 4&lt;/p>&lt;/blockquote>&lt;p>Enchainement d'exception:&lt;/p>&lt;p>E1: Les données de l'état du jeu sont invalides &lt;/p>&lt;blockquote>&lt;p>L'enchainement démarre au point 4&lt;/p>&lt;/blockquote>&lt;p>&lt;/p></body>
+          <body>&lt;p>Nom: API: Définir état actuel du jeu&lt;/p>&lt;p>Descrption: L'IA envoit les données de l'état actuel du jeu&lt;/p>&lt;p>Acteur: IA&lt;/p>&lt;p>Pré-conditions: Le fonctionnement du jeu a été initialisé au préalable&lt;/p>&lt;p>Scénario nominal;&lt;/p>&lt;blockquote>&lt;p>1/ L'IA accède à l'API du système.&lt;/p>&lt;p>2/ L'IA appelle la fonction de définition de l'état du jeu avec comme paramètres les données de l'état actuel du jeu (Le nombre d'occurrence de chaque unité et batiment, nombre de PO et N).&lt;/p>&lt;p>3/ Le système vérifie que le fonctionnement du jeu à été initialisé.&lt;/p>&lt;p>4/ Le système vérifie que les données reçues sont valides.&lt;/p>&lt;p>5/ Le système initialise ou met à jour l'état du jeu.&lt;/p>&lt;/blockquote>&lt;p>Enchainement alternatif:&lt;/p>&lt;p>A1: Le fonctionnement du jeu n'a pas été initialisé&lt;/p>&lt;blockquote>&lt;p>L'enchainement commence après le point 3&lt;/p>&lt;p>1. Le système demande à l'IA les données de fonctionnement du jeu&lt;/p>&lt;p>2. L'IA fait appel à la fonction de définition du fonctionnement du jeu (Use case: Définir état actuel du jeu)&lt;/p>&lt;p>La séquence reprend au point 4&lt;/p>&lt;/blockquote>&lt;p>Enchainement d'exception:&lt;/p>&lt;p>E1: Les données de l'état du jeu sont invalides&lt;/p>&lt;blockquote>&lt;p>L'enchainement démarre au point 4&lt;/p>&lt;p>1. le système annule l'opération&lt;/p>&lt;/blockquote>&lt;p>&lt;/p></body>
         </ownedComment>
       </packagedElement>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_92sukNEiEeihY5MaxXauwA" name="API: Optenir BO"/>
@@ -1703,6 +1703,7 @@
         </ownedParameter>
       </ownedOperation>
       <ownedOperation xmi:id="_HqreMNEwEeihY5MaxXauwA" name="send()"/>
+      <ownedOperation xmi:id="_MY33QNLTEeiWOsd8d0WHIA" name="definirEtatJeuApi()"/>
     </packagedElement>
     <packagedElement xmi:type="uml:ExecutionEvent" xmi:id="_QSon8dEvEeihY5MaxXauwA" name="ExecutionEvent1"/>
     <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_QhBCMNEvEeihY5MaxXauwA" name="SendOperationEvent1" operation="_vG74ENEuEeihY5MaxXauwA"/>
@@ -1785,6 +1786,65 @@
     </packagedElement>
     <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_SaR0cNEwEeihY5MaxXauwA" name="SendOperationEvent4" operation="_HqreMNEwEeihY5MaxXauwA"/>
     <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_SaSbgNEwEeihY5MaxXauwA" name="ReceiveOperationEvent4" operation="_HqreMNEwEeihY5MaxXauwA"/>
+    <packagedElement xmi:type="uml:Collaboration" xmi:id="_qgQ-ENLSEeiWOsd8d0WHIA" name="Collaboration3">
+      <ownedBehavior xmi:type="uml:Interaction" xmi:id="_qgV2kNLSEeiWOsd8d0WHIA" name="Interaction1">
+        <eAnnotations xmi:id="_qgY54NLSEeiWOsd8d0WHIA" source="uml2.diagrams">
+          <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_qgY54dLSEeiWOsd8d0WHIA" type="Sequence" element="_qgV2kNLSEeiWOsd8d0WHIA" name="DiagrammeSéquence1" measurementUnit="Himetric">
+            <children xmi:type="umlnotation:UMLShape" xmi:id="_qgY54tLSEeiWOsd8d0WHIA" element="_qgV2kNLSEeiWOsd8d0WHIA" fontName="Cantarell" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
+              <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_qgY549LSEeiWOsd8d0WHIA" type="interaction_compartment">
+                <children xmi:type="umlnotation:UMLShape" xmi:id="_wKQscNLSEeiWOsd8d0WHIA" element="_wKKl0NLSEeiWOsd8d0WHIA" fontName="Cantarell" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+                  <eAnnotations xmi:id="_wKQsctLSEeiWOsd8d0WHIA" source="com.ibm.xtools.uml.ui.diagram.internal.styles">
+                    <details xmi:id="_wKQsc9LSEeiWOsd8d0WHIA" key="LifelineLabelStyle" value="Represents Name and Type Name"/>
+                  </eAnnotations>
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_wKQsdNLSEeiWOsd8d0WHIA" type="Stereotype"/>
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_wKRTgNLSEeiWOsd8d0WHIA" type="Name"/>
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_wKRTgdLSEeiWOsd8d0WHIA" type="Parent"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wKQscdLSEeiWOsd8d0WHIA" x="10927" y="317" width="2962" height="9525"/>
+                </children>
+                <children xmi:type="umlnotation:UMLShape" xmi:id="_teRAQNLSEeiWOsd8d0WHIA" element="_teOkANLSEeiWOsd8d0WHIA" fontName="Cantarell" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+                  <eAnnotations xmi:id="_teRnUNLSEeiWOsd8d0WHIA" source="com.ibm.xtools.uml.ui.diagram.internal.styles">
+                    <details xmi:id="_teRnUdLSEeiWOsd8d0WHIA" key="LifelineLabelStyle" value="Represents Name and Type Name"/>
+                  </eAnnotations>
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_teRnUtLSEeiWOsd8d0WHIA" type="Stereotype"/>
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_teSOYNLSEeiWOsd8d0WHIA" type="Name"/>
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_teSOYdLSEeiWOsd8d0WHIA" type="Parent"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_teRAQdLSEeiWOsd8d0WHIA" x="3116" y="845" width="1613" height="9525"/>
+                </children>
+              </children>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_qgY55NLSEeiWOsd8d0WHIA" type="Name"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qgY55dLSEeiWOsd8d0WHIA" x="793" y="793"/>
+            </children>
+            <edges xmi:type="umlnotation:UMLConnector" xmi:id="_KBX0YNLTEeiWOsd8d0WHIA" element="_KBRtwNLTEeiWOsd8d0WHIA" source="_teRAQNLSEeiWOsd8d0WHIA" target="_wKQscNLSEeiWOsd8d0WHIA" fontName="Cantarell" fontHeight="8" lineColor="8421504" lineWidth="1" showStereotype="Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_KBYbcNLTEeiWOsd8d0WHIA" type="MessageNameLabel">
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_KBYbctLTEeiWOsd8d0WHIA" type="Stereotype"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_KBYbc9LTEeiWOsd8d0WHIA" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KBYbcdLTEeiWOsd8d0WHIA" y="-317"/>
+              </children>
+              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_KBX0YdLTEeiWOsd8d0WHIA" points="[0, 0, -499, 0]$[499, 0, 0, 0]"/>
+              <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KBaQoNLTEeiWOsd8d0WHIA" id="155:2251"/>
+              <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KBaQodLTEeiWOsd8d0WHIA" id="214:0"/>
+            </edges>
+          </contents>
+        </eAnnotations>
+        <ownedConnector xmi:id="_3imL8NLSEeiWOsd8d0WHIA">
+          <end xmi:id="_3imL8dLSEeiWOsd8d0WHIA" role="_wKKl0dLSEeiWOsd8d0WHIA"/>
+          <end xmi:id="_3imL8tLSEeiWOsd8d0WHIA" role="_teOkAdLSEeiWOsd8d0WHIA"/>
+        </ownedConnector>
+        <lifeline xmi:id="_teOkANLSEeiWOsd8d0WHIA" name="iA" represents="_teOkAdLSEeiWOsd8d0WHIA" coveredBy="_KBSU0NLTEeiWOsd8d0WHIA _KBS749LTEeiWOsd8d0WHIA"/>
+        <lifeline xmi:id="_wKKl0NLSEeiWOsd8d0WHIA" name="logiciel" represents="_wKKl0dLSEeiWOsd8d0WHIA" coveredBy="_KBSU0dLTEeiWOsd8d0WHIA _KBS74NLTEeiWOsd8d0WHIA _KBS74dLTEeiWOsd8d0WHIA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_KBSU0NLTEeiWOsd8d0WHIA" covered="_teOkANLSEeiWOsd8d0WHIA" event="_MY5FYNLTEeiWOsd8d0WHIA" message="_KBRtwNLTEeiWOsd8d0WHIA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_KBSU0dLTEeiWOsd8d0WHIA" covered="_wKKl0NLSEeiWOsd8d0WHIA" event="_MY5scNLTEeiWOsd8d0WHIA" message="_KBRtwNLTEeiWOsd8d0WHIA"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_KBS74NLTEeiWOsd8d0WHIA" covered="_wKKl0NLSEeiWOsd8d0WHIA" start="_KBSU0dLTEeiWOsd8d0WHIA" finish="_KBS74dLTEeiWOsd8d0WHIA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_KBS74dLTEeiWOsd8d0WHIA" covered="_wKKl0NLSEeiWOsd8d0WHIA" event="_MY5FYNLTEeiWOsd8d0WHIA" message="_KBS74tLTEeiWOsd8d0WHIA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_KBS749LTEeiWOsd8d0WHIA" covered="_teOkANLSEeiWOsd8d0WHIA" event="_MY5scNLTEeiWOsd8d0WHIA" message="_KBS74tLTEeiWOsd8d0WHIA"/>
+        <message xmi:id="_KBRtwNLTEeiWOsd8d0WHIA" name="definirEtatJeuApi()" receiveEvent="_KBSU0dLTEeiWOsd8d0WHIA" sendEvent="_KBSU0NLTEeiWOsd8d0WHIA" connector="_3imL8NLSEeiWOsd8d0WHIA"/>
+        <message xmi:id="_KBS74tLTEeiWOsd8d0WHIA" name="definirEtatJeuApi()" messageSort="reply" receiveEvent="_KBS749LTEeiWOsd8d0WHIA" sendEvent="_KBS74dLTEeiWOsd8d0WHIA" connector="_3imL8NLSEeiWOsd8d0WHIA"/>
+      </ownedBehavior>
+      <ownedAttribute xmi:id="_teOkAdLSEeiWOsd8d0WHIA" name="iA" type="_R2f6UNEiEeihY5MaxXauwA"/>
+      <ownedAttribute xmi:id="_wKKl0dLSEeiWOsd8d0WHIA" name="logiciel" type="_rt3DcNEuEeihY5MaxXauwA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_MY5FYNLTEeiWOsd8d0WHIA" name="SendOperationEvent5" operation="_MY33QNLTEeiWOsd8d0WHIA"/>
+    <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_MY5scNLTEeiWOsd8d0WHIA" name="ReceiveOperationEvent5" operation="_MY33QNLTEeiWOsd8d0WHIA"/>
     <profileApplication xmi:id="_LVsY5MYjEei3m4nDcJ-92w">
       <eAnnotations xmi:id="_LVsY5cYjEei3m4nDcJ-92w" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w"/>
