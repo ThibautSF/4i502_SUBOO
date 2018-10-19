@@ -49,7 +49,7 @@
             <children xmi:type="notation:BasicDecorationNode" xmi:id="_dkPocMYtEei3m4nDcJ-92w" type="Name"/>
             <children xmi:type="notation:BasicDecorationNode" xmi:id="_dkPoccYtEei3m4nDcJ-92w" type="Parent"/>
             <children xmi:type="notation:ListCompartment" xmi:id="_dkPocsYtEei3m4nDcJ-92w" visible="false" type="Extension_Points"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dkOaUcYtEei3m4nDcJ-92w" x="7608" y="5706"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dkOaUcYtEei3m4nDcJ-92w" x="8559" y="8559"/>
           </children>
           <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_COUjsMYuEei3m4nDcJ-92w" element="_CORgYMYuEei3m4nDcJ-92w" fontName="Cantarell" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
             <children xmi:type="notation:DecorationNode" xmi:id="_COVKwMYuEei3m4nDcJ-92w" type="ImageCompartment">
@@ -69,7 +69,7 @@
             <children xmi:type="notation:BasicDecorationNode" xmi:id="_EkSVgMYuEei3m4nDcJ-92w" type="Name"/>
             <children xmi:type="notation:BasicDecorationNode" xmi:id="_EkSVgcYuEei3m4nDcJ-92w" type="Parent"/>
             <children xmi:type="notation:ListCompartment" xmi:id="_EkSVgsYuEei3m4nDcJ-92w" visible="false" type="Extension_Points"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EkRHYcYuEei3m4nDcJ-92w" x="7925" y="8559"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EkRHYcYuEei3m4nDcJ-92w" x="7925" y="5706"/>
           </children>
           <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_R5rKINEiEeihY5MaxXauwA" element="_R2f6UNEiEeihY5MaxXauwA" fontName="Cantarell" fontHeight="8" fillColor="15912618" transparency="0" lineColor="15912618" lineWidth="1" showStereotype="Label">
             <children xmi:type="notation:DecorationNode" xmi:id="_R5sYQNEiEeihY5MaxXauwA" type="ImageCompartment">
@@ -1626,7 +1626,7 @@
           </contents>
         </eAnnotations>
       </packagedElement>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_esP5sMYqEei3m4nDcJ-92w" name="Definir Objectif">
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_esP5sMYqEei3m4nDcJ-92w" name="Definir objectif">
         <ownedComment xmi:id="_EWAa8MuqEeikKPAJvbK7fA" annotatedElement="_esP5sMYqEei3m4nDcJ-92w">
           <body>&lt;p>Definir objectif&lt;/p>&lt;p>Acteur : Utilisateur&lt;/p>&lt;p>Préconditions: Aucune&lt;/p>&lt;p>Séquencement nominal&lt;/p>&lt;p>1. L'utilisateur choisit de definir les objectifs de sa partie&lt;/p>&lt;p>2. Le système verifie que le joueur a définit le fonctionnement du jeu&lt;/p>&lt;p>3. Le système affiche la page d'entrée des objectifs de partie&lt;/p>&lt;p>4. Le joueur entre les objectifs et valide&lt;/p>&lt;p>Enchaînement alternatifs:&lt;/p>&lt;p>A1: Le joueur n'as pas rentré le fonctionnement du jeu&lt;/p>&lt;p>L'enchainement commence après le point 2 de la séquence nominale&lt;/p>&lt;blockquote>&lt;p>3. Appel du cas &amp;lt;&amp;lt;Definir fonctionnement du jeu&amp;gt;&amp;gt;&lt;/p>&lt;/blockquote>&lt;p>La séquence nominale reprend au point 3.&lt;/p>&lt;p>&lt;/p></body>
         </ownedComment>
