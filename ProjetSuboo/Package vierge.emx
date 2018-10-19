@@ -39,7 +39,7 @@
             <children xmi:type="notation:BasicDecorationNode" xmi:id="_esUyMcYqEei3m4nDcJ-92w" type="Name"/>
             <children xmi:type="notation:BasicDecorationNode" xmi:id="_esUyMsYqEei3m4nDcJ-92w" type="Parent"/>
             <children xmi:type="notation:ListCompartment" xmi:id="_esVZQMYqEei3m4nDcJ-92w" visible="false" type="Extension_Points"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_esTkEcYqEei3m4nDcJ-92w" x="10032" y="10164"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_esTkEcYqEei3m4nDcJ-92w" x="10461" y="12997"/>
           </children>
           <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_dkOaUMYtEei3m4nDcJ-92w" element="_dkI6wMYtEei3m4nDcJ-92w" fontName="Cantarell" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
             <children xmi:type="notation:DecorationNode" xmi:id="_dkPBYMYtEei3m4nDcJ-92w" type="ImageCompartment">
@@ -49,7 +49,7 @@
             <children xmi:type="notation:BasicDecorationNode" xmi:id="_dkPocMYtEei3m4nDcJ-92w" type="Name"/>
             <children xmi:type="notation:BasicDecorationNode" xmi:id="_dkPoccYtEei3m4nDcJ-92w" type="Parent"/>
             <children xmi:type="notation:ListCompartment" xmi:id="_dkPocsYtEei3m4nDcJ-92w" visible="false" type="Extension_Points"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dkOaUcYtEei3m4nDcJ-92w" x="9240" y="7260"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dkOaUcYtEei3m4nDcJ-92w" x="9827" y="7291"/>
           </children>
           <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_COUjsMYuEei3m4nDcJ-92w" element="_CORgYMYuEei3m4nDcJ-92w" fontName="Cantarell" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
             <children xmi:type="notation:DecorationNode" xmi:id="_COVKwMYuEei3m4nDcJ-92w" type="ImageCompartment">
@@ -59,7 +59,7 @@
             <children xmi:type="notation:BasicDecorationNode" xmi:id="_COVKw8YuEei3m4nDcJ-92w" type="Name"/>
             <children xmi:type="notation:BasicDecorationNode" xmi:id="_COVKxMYuEei3m4nDcJ-92w" type="Parent"/>
             <children xmi:type="notation:ListCompartment" xmi:id="_COVKxcYuEei3m4nDcJ-92w" visible="false" type="Extension_Points"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_COUjscYuEei3m4nDcJ-92w" x="13860" y="11880"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_COUjscYuEei3m4nDcJ-92w" x="10461" y="15533"/>
           </children>
           <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_EkRHYMYuEei3m4nDcJ-92w" element="_EkMO4MYuEei3m4nDcJ-92w" fontName="Cantarell" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
             <children xmi:type="notation:DecorationNode" xmi:id="_EkRucMYuEei3m4nDcJ-92w" type="ImageCompartment">
@@ -69,7 +69,7 @@
             <children xmi:type="notation:BasicDecorationNode" xmi:id="_EkSVgMYuEei3m4nDcJ-92w" type="Name"/>
             <children xmi:type="notation:BasicDecorationNode" xmi:id="_EkSVgcYuEei3m4nDcJ-92w" type="Parent"/>
             <children xmi:type="notation:ListCompartment" xmi:id="_EkSVgsYuEei3m4nDcJ-92w" visible="false" type="Extension_Points"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EkRHYcYuEei3m4nDcJ-92w" x="8976" y="15048"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EkRHYcYuEei3m4nDcJ-92w" x="9193" y="10461"/>
           </children>
           <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_R5rKINEiEeihY5MaxXauwA" element="_R2f6UNEiEeihY5MaxXauwA" fontName="Cantarell" fontHeight="8" fillColor="15912618" transparency="0" lineColor="15912618" lineWidth="1" showStereotype="Label">
             <children xmi:type="notation:DecorationNode" xmi:id="_R5sYQNEiEeihY5MaxXauwA" type="ImageCompartment">
@@ -88,7 +88,7 @@
             <children xmi:type="notation:BasicDecorationNode" xmi:id="_3JfPsdEiEeihY5MaxXauwA" type="Name"/>
             <children xmi:type="notation:BasicDecorationNode" xmi:id="_3Jf2wNEiEeihY5MaxXauwA" type="Parent"/>
             <children xmi:type="notation:ListCompartment" xmi:id="_3Jf2wdEiEeihY5MaxXauwA" visible="false" type="Extension_Points"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3JeBkdEiEeihY5MaxXauwA" x="20566" y="5080"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3JeBkdEiEeihY5MaxXauwA" x="20288" y="9510"/>
           </children>
           <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_92zcQNEiEeihY5MaxXauwA" element="_92sukNEiEeihY5MaxXauwA" fontName="Cantarell" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
             <children xmi:type="notation:DecorationNode" xmi:id="_921RcNEiEeihY5MaxXauwA" type="ImageCompartment">
@@ -98,7 +98,7 @@
             <children xmi:type="notation:BasicDecorationNode" xmi:id="_923tsNEiEeihY5MaxXauwA" type="Name"/>
             <children xmi:type="notation:BasicDecorationNode" xmi:id="_924UwNEiEeihY5MaxXauwA" type="Parent"/>
             <children xmi:type="notation:ListCompartment" xmi:id="_924UwdEiEeihY5MaxXauwA" visible="false" type="Extension_Points"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_92zcQdEiEeihY5MaxXauwA" x="20460" y="11616"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_92zcQdEiEeihY5MaxXauwA" x="21556" y="15216"/>
           </children>
           <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="__fobQNEiEeihY5MaxXauwA" element="__fi7sNEiEeihY5MaxXauwA" fontName="Cantarell" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
             <children xmi:type="notation:DecorationNode" xmi:id="__fppYNEiEeihY5MaxXauwA" type="ImageCompartment">
@@ -108,7 +108,7 @@
             <children xmi:type="notation:BasicDecorationNode" xmi:id="__fqQcdEiEeihY5MaxXauwA" type="Name"/>
             <children xmi:type="notation:BasicDecorationNode" xmi:id="__fq3gNEiEeihY5MaxXauwA" type="Parent"/>
             <children xmi:type="notation:ListCompartment" xmi:id="__fq3gdEiEeihY5MaxXauwA" visible="false" type="Extension_Points"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="__fobQdEiEeihY5MaxXauwA" x="16500" y="8184" width="3915" height="2716"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="__fobQdEiEeihY5MaxXauwA" x="21239" y="5706" width="3915" height="2716"/>
           </children>
           <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_Cttg0NEjEeihY5MaxXauwA" element="_CtooUNEjEeihY5MaxXauwA" fontName="Cantarell" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
             <children xmi:type="notation:DecorationNode" xmi:id="_Ctuu8NEjEeihY5MaxXauwA" type="ImageCompartment">
@@ -118,7 +118,7 @@
             <children xmi:type="notation:BasicDecorationNode" xmi:id="_CtvWAdEjEeihY5MaxXauwA" type="Name"/>
             <children xmi:type="notation:BasicDecorationNode" xmi:id="_CtwkINEjEeihY5MaxXauwA" type="Parent"/>
             <children xmi:type="notation:ListCompartment" xmi:id="_CtwkIdEjEeihY5MaxXauwA" visible="false" type="Extension_Points"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Cttg0dEjEeihY5MaxXauwA" x="19473" y="14605"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Cttg0dEjEeihY5MaxXauwA" x="20922" y="12046"/>
           </children>
           <element xsi:nil="true"/>
           <edges xmi:type="umlnotation:UMLConnector" xmi:id="_RMEnUMYsEei3m4nDcJ-92w" element="_RL3zAMYsEei3m4nDcJ-92w" source="_Yg4n0MYjEei3m4nDcJ-92w" target="_esTkEMYqEei3m4nDcJ-92w" fontName="Cantarell" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
@@ -1459,7 +1459,7 @@
           </contents>
         </eAnnotations>
       </packagedElement>
-      <packagedElement xmi:type="uml:Actor" xmi:id="_YgGksMYjEei3m4nDcJ-92w" name="Joueur"/>
+      <packagedElement xmi:type="uml:Actor" xmi:id="_YgGksMYjEei3m4nDcJ-92w" name="Utilisateur"/>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_dOaG4MYjEei3m4nDcJ-92w" name="Affecter ouvrier"/>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_a0fCIMYjEei3m4nDcJ-92w" name="Construire batiment"/>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_jjZTAMYjEei3m4nDcJ-92w" name="Creer unité"/>
@@ -1757,7 +1757,7 @@
         <generalization xmi:id="_uBIuIMYsEei3m4nDcJ-92w" general="_rIgUIMYsEei3m4nDcJ-92w"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Association" xmi:id="_x4VpMMYsEei3m4nDcJ-92w" memberEnd="_x4W3UMYsEei3m4nDcJ-92w _x4YsgMYsEei3m4nDcJ-92w"/>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_dkI6wMYtEei3m4nDcJ-92w" name="Definir etat actuel du jeu">
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_dkI6wMYtEei3m4nDcJ-92w" name="Definir etat initial du jeu">
         <ownedComment xmi:id="_S3V6QMumEeiLi7QiVm6lNA" annotatedElement="_dkI6wMYtEei3m4nDcJ-92w">
           <body>&lt;p>Nom: Définir état actuel du jeu&lt;/p>&lt;p>Descrption: Le joueur saisis l'état actuel du jeu&lt;/p>&lt;p>Acteur: Joueur&lt;/p>&lt;p>Pré-conditions: Le fonctionnement du jeu a été initialisé au préalable&lt;/p>&lt;p>Scénario nominal;&lt;/p>&lt;blockquote>&lt;p>1/ Le joueur choisit de définir l'état actuel du jeu en cliquant sur le bouton associé.&lt;/p>&lt;p>2/ Le système vérifie que le fonctionnement du jeu à été initialisé&lt;/p>&lt;p>3/ Le système affiche le formulaire de saisie de l'état du jeu (Le nombre d'occurrence de chaque unité et batiment, nombre de PO et N)&lt;/p>&lt;p>4/ Le joueur saisis les données de l'état actuel du jeu et confirme&lt;/p>&lt;p>5/ Le système initialise ou met à jour l'état du jeu&lt;/p>&lt;/blockquote>&lt;p>Enchainement alternatif:&lt;/p>&lt;p>A1: Le fonctionnement du jeu n'a pas été initialisé&lt;/p>&lt;blockquote>&lt;p>L'enchainement commence après le point 2&lt;/p>&lt;p>1. Le système invite le joueur à définir le fonctionnement du jeu (use case: Définir fonctionnement du jeu)&lt;/p>&lt;p>La séquence reprend au point 3&lt;/p>&lt;/blockquote>&lt;p>Enchainement d'exception:&lt;/p>&lt;p>E1: Le joueur annule la définition de l'état actuel du jeu&lt;/p>&lt;blockquote>&lt;p>L'enchainement démarre au point 4&lt;/p>&lt;/blockquote>&lt;p>&lt;/p></body>
         </ownedComment>
@@ -1820,14 +1820,14 @@
       </packagedElement>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_rDZU8MuuEeihNslevlWMHg" name="UseCase1"/>
       <packagedElement xmi:type="uml:Actor" xmi:id="_R2f6UNEiEeihY5MaxXauwA" name="IA"/>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_3Ja-QNEiEeihY5MaxXauwA" name="API : Definir etat du jeu">
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_3Ja-QNEiEeihY5MaxXauwA" name="Definir etat du jeu via une API">
         <ownedComment xmi:id="_EF9h0NFSEeivyOr-L-pStA" annotatedElement="_3Ja-QNEiEeihY5MaxXauwA">
           <body>&lt;p>Nom: API: Définir état actuel du jeu&lt;/p>&lt;p>Descrption: L'IA envoit les données de l'état actuel du jeu&lt;/p>&lt;p>Acteur: IA&lt;/p>&lt;p>Pré-conditions: Le fonctionnement du jeu a été initialisé au préalable&lt;/p>&lt;p>Scénario nominal;&lt;/p>&lt;blockquote>&lt;p>1/ L'IA accède à l'API du système.&lt;/p>&lt;p>2/ L'IA appelle la fonction de définition de l'état du jeu avec comme paramètres les données de l'état actuel du jeu (Le nombre d'occurrence de chaque unité et batiment, nombre de PO et N).&lt;/p>&lt;p>3/ Le système vérifie que le fonctionnement du jeu à été initialisé.&lt;/p>&lt;p>4/ Le système vérifie que les données reçues sont valides.&lt;/p>&lt;p>5/ Le système initialise ou met à jour l'état du jeu.&lt;/p>&lt;/blockquote>&lt;p>Enchainement alternatif:&lt;/p>&lt;p>A1: Le fonctionnement du jeu n'a pas été initialisé&lt;/p>&lt;blockquote>&lt;p>L'enchainement commence après le point 3&lt;/p>&lt;p>1. Le système demande à l'IA les données de fonctionnement du jeu&lt;/p>&lt;p>2. L'IA fait appel à la fonction de définition du fonctionnement du jeu (Use case: Définir état actuel du jeu)&lt;/p>&lt;p>La séquence reprend au point 4&lt;/p>&lt;/blockquote>&lt;p>Enchainement d'exception:&lt;/p>&lt;p>E1: Les données de l'état du jeu sont invalides&lt;/p>&lt;blockquote>&lt;p>L'enchainement démarre au point 4&lt;/p>&lt;p>1. le système annule l'opération&lt;/p>&lt;/blockquote>&lt;p>&lt;/p></body>
         </ownedComment>
       </packagedElement>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_92sukNEiEeihY5MaxXauwA" name="API: Optenir BO"/>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="__fi7sNEiEeihY5MaxXauwA" name="API : Definir Fonctionnement du jeu"/>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_CtooUNEjEeihY5MaxXauwA" name="API : Definir objectif"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_92sukNEiEeihY5MaxXauwA" name="Optenir BO via une API"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="__fi7sNEiEeihY5MaxXauwA" name="Definir Fonctionnement du jeu via une API"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_CtooUNEjEeihY5MaxXauwA" name="Definir objectif via une API"/>
       <packagedElement xmi:type="uml:Association" xmi:id="_0jKFoNEtEeihY5MaxXauwA" memberEnd="_0jMh4NEtEeihY5MaxXauwA _0jOXENEtEeihY5MaxXauwA" navigableOwnedEnd="_0jMh4NEtEeihY5MaxXauwA _0jOXENEtEeihY5MaxXauwA">
         <ownedEnd xmi:id="_0jMh4NEtEeihY5MaxXauwA" name="aPI: Optenir BO" visibility="private" type="_92sukNEiEeihY5MaxXauwA" association="_0jKFoNEtEeihY5MaxXauwA">
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_0jNwAdEtEeihY5MaxXauwA" value="1"/>
