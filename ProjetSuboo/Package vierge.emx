@@ -1304,8 +1304,8 @@
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_vFD7MMYqEei3m4nDcJ-92w" name="BO">
         <ownedAttribute xmi:id="_C7sucMYrEei3m4nDcJ-92w" name="action" visibility="private" type="_x8s2sMYqEei3m4nDcJ-92w" association="_C7rgUMYrEei3m4nDcJ-92w">
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_C7t8kMYrEei3m4nDcJ-92w" value="1"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_C7tVgMYrEei3m4nDcJ-92w" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_C7t8kMYrEei3m4nDcJ-92w" value="*"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_C7tVgMYrEei3m4nDcJ-92w"/>
         </ownedAttribute>
         <ownedAttribute xmi:id="_iLrl8NFXEeigQ9inVDr0pA" name="objectif" visibility="private" type="_EPq3wMYrEei3m4nDcJ-92w" association="_iLmGYNFXEeigQ9inVDr0pA">
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_iLsNAdFXEeigQ9inVDr0pA" value="1"/>
