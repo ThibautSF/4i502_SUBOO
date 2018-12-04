@@ -464,6 +464,25 @@
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_JmuIEfI1Eei08PbxLsUlAw" id="(0.6669864260693216,0.0)"/>
         </edges>
       </contents>
+      <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_toX_4PewEeipRLrQFYusqQ" type="Class" name="BOGenerator">
+        <children xmi:type="umlnotation:UMLComponent" xmi:id="_x1pRkPewEeipRLrQFYusqQ" element="_R0ZQ8PIxEei08PbxLsUlAw" fontName="Cantarell" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+          <children xmi:type="notation:DecorationNode" xmi:id="_x1p4oPewEeipRLrQFYusqQ" type="ImageCompartment">
+            <layoutConstraint xmi:type="notation:Size" xmi:id="_x1p4ofewEeipRLrQFYusqQ" width="1320" height="1320"/>
+          </children>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_x1rGwPewEeipRLrQFYusqQ" type="Stereotype"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_x1rt0PewEeipRLrQFYusqQ" type="Kind"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_x1rt0fewEeipRLrQFYusqQ" type="Name"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_x1sU4PewEeipRLrQFYusqQ" type="Parent"/>
+          <children xmi:type="notation:SemanticListCompartment" xmi:id="_x1sU4fewEeipRLrQFYusqQ" visible="false" type="AttributeCompartment"/>
+          <children xmi:type="notation:SemanticListCompartment" xmi:id="_x1sU4vewEeipRLrQFYusqQ" visible="false" type="OperationCompartment"/>
+          <children xmi:type="notation:ListCompartment" xmi:id="_x1s78PewEeipRLrQFYusqQ" visible="false" type="RealizationListCompartment"/>
+          <children xmi:type="notation:ListCompartment" xmi:id="_x1s78fewEeipRLrQFYusqQ" type="RequiredInterfaceListCompartment"/>
+          <children xmi:type="notation:ListCompartment" xmi:id="_x1tjAPewEeipRLrQFYusqQ" type="ProvidedInterfaceListCompartment"/>
+          <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_x1tjAfewEeipRLrQFYusqQ" visible="false" type="StructureCompartment"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_x1pRkfewEeipRLrQFYusqQ" x="5080" y="3413" height="5014"/>
+        </children>
+        <element xsi:nil="true"/>
+      </contents>
     </eAnnotations>
     <packagedElement xmi:type="uml:Package" xmi:id="_oSoQAMYoEei3m4nDcJ-92w" name="Analyse">
       <eAnnotations xmi:id="_oSo3EMYoEei3m4nDcJ-92w" source="uml2.diagrams" references="_oSo3EcYoEei3m4nDcJ-92w">
@@ -2484,6 +2503,7 @@
       <interfaceRealization xmi:id="_yAdTUPIyEei08PbxLsUlAw" name="IBOS" supplier="_imKacPIwEei08PbxLsUlAw" client="_NfJH8PIxEei08PbxLsUlAw" contract="_imKacPIwEei08PbxLsUlAw"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Component" xmi:id="_R0ZQ8PIxEei08PbxLsUlAw" name="BOGenerator" clientDependency="_fcyj0PIyEei08PbxLsUlAw _izD8EPIyEei08PbxLsUlAw _DKXakPIzEei08PbxLsUlAw _Gf7oMPIzEei08PbxLsUlAw _KwYJsPIzEei08PbxLsUlAw">
+      <eAnnotations xmi:id="_NpJqMPewEeipRLrQFYusqQ" source="uml2.diagrams"/>
       <interfaceRealization xmi:id="_fcyj0PIyEei08PbxLsUlAw" name="IBOGen" supplier="_j32r0PIwEei08PbxLsUlAw" client="_R0ZQ8PIxEei08PbxLsUlAw" contract="_j32r0PIwEei08PbxLsUlAw"/>
       <interfaceRealization xmi:id="_izD8EPIyEei08PbxLsUlAw" name="IBOGens" supplier="_mTg18PIwEei08PbxLsUlAw" client="_R0ZQ8PIxEei08PbxLsUlAw" contract="_mTg18PIwEei08PbxLsUlAw"/>
       <ownedOperation xmi:id="_AQk4APL5Eeig3oe8XKq5LQ" name="sendFonctionnementEtat(f,e)"/>
@@ -2494,7 +2514,9 @@
       <ownedOperation xmi:id="_vNkbQPL-Eeig3oe8XKq5LQ" name="etudeBo(boUtil)"/>
       <ownedOperation xmi:id="__3qtAPSeEeib7rRFj26mqQ" name="parseBO(boUtil)"/>
       <ownedOperation xmi:id="_J8m8sPSfEeib7rRFj26mqQ" name="optimize(boUtil)"/>
-      <ownedOperation xmi:id="_nhbFcPSfEeib7rRFj26mqQ" name="isOptimized(boUtil)"/>
+      <ownedOperation xmi:id="_nhbFcPSfEeib7rRFj26mqQ" name="isOptimized">
+        <ownedParameter xmi:id="_MLinQPexEeipRLrQFYusqQ" name="bo" type="_vFD7MMYqEei3m4nDcJ-92w"/>
+      </ownedOperation>
       <ownedOperation xmi:id="_f4tc0PeuEeiMhem0TXqdPQ" name="calculerNouvelEtat(etat)"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Component" xmi:id="_TThhYPIxEei08PbxLsUlAw" name="IHM" clientDependency="_m88ikPIyEei08PbxLsUlAw"/>
@@ -3560,7 +3582,7 @@
               <children xmi:type="notation:DecorationNode" xmi:id="_mBdHgvSfEeib7rRFj26mqQ" type="MessageNameLabel">
                 <children xmi:type="notation:BasicDecorationNode" xmi:id="_mBdHhPSfEeib7rRFj26mqQ" type="Stereotype"/>
                 <children xmi:type="notation:BasicDecorationNode" xmi:id="_mBdukPSfEeib7rRFj26mqQ" type="Name"/>
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mBdHg_SfEeib7rRFj26mqQ" y="-317"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mBdHg_SfEeib7rRFj26mqQ" x="48" y="-1782"/>
               </children>
               <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_mBdHgfSfEeib7rRFj26mqQ" points="[0, 0, 0, -7]$[0, 7, 0, 0]"/>
               <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_mBfjwPSfEeib7rRFj26mqQ" id="255:423"/>
@@ -4014,6 +4036,12 @@
         <references xmi:type="ecore:EPackage" href="pathmap://UML2_MSL_PROFILES/Deployment.epx#_4OVBUD0TEeKt-L0gyEptgQ?Deployment/Deployment?"/>
       </eAnnotations>
       <appliedProfile href="pathmap://UML2_MSL_PROFILES/Deployment.epx#_vjbuwOvHEdiDX5bji0iVSA?Deployment?"/>
+    </profileApplication>
+    <profileApplication xmi:id="_DNiKcPexEeipRLrQFYusqQ">
+      <eAnnotations xmi:id="_DNixgPexEeipRLrQFYusqQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://RESTProfile/REST.epx#_w_1eEDeXEea7zJ8GtyuLLw?REST/REST?"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://RESTProfile/REST.epx#_G6KGQAwqEd-fBO8fbtF2Cg?REST?"/>
     </profileApplication>
   </uml:Package>
   <Default:Documentation xmi:id="_bmOSwMuiEeiLi7QiVm6lNA" base_Comment="_bjnDoMuiEeiLi7QiVm6lNA"/>
