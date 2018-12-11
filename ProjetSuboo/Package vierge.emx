@@ -4209,10 +4209,10 @@
       <ownedAttribute xmi:id="_0Os7APetEeiMhem0TXqdPQ" name="etatJeu" type="_yC12cNFYEeigQ9inVDr0pA"/>
       <ownedAttribute xmi:id="_94_2EPetEeiMhem0TXqdPQ" name="etatJeu" type="_yC12cNFYEeigQ9inVDr0pA"/>
       <ownedAttribute xmi:id="_GcW-QPeuEeiMhem0TXqdPQ" name="gameObject2" type="_v98T4PIwEei08PbxLsUlAw"/>
-      <ownedAttribute xmi:id="_FkznAPe1EeipRLrQFYusqQ" name="go" type="_FdVVsNFYEeigQ9inVDr0pA"/>
-      <ownedAttribute xmi:id="_4-Uq0fe4EeipRLrQFYusqQ" name="o" type="_EPq3wMYrEei3m4nDcJ-92w"/>
+      <ownedAttribute xmi:id="_FkznAPe1EeipRLrQFYusqQ" name="go" type="_UuJhwPIwEei08PbxLsUlAw"/>
+      <ownedAttribute xmi:id="_4-Uq0fe4EeipRLrQFYusqQ" name="o" type="_X9i18PIwEei08PbxLsUlAw"/>
       <ownedAttribute xmi:id="_-0xEUfe5EeipRLrQFYusqQ" name="bO" type="_vFD7MMYqEei3m4nDcJ-92w"/>
-      <ownedAttribute xmi:id="_pxgRMP0wEei9mPQx3vt5_A" name="boOptim" type="_vFD7MMYqEei3m4nDcJ-92w"/>
+      <ownedAttribute xmi:id="_pxgRMP0wEei9mPQx3vt5_A" name="boOptim" type="_imKacPIwEei08PbxLsUlAw"/>
     </packagedElement>
     <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_AQmGIPL5Eeig3oe8XKq5LQ" name="SendOperationEvent13" operation="_AQk4APL5Eeig3oe8XKq5LQ"/>
     <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_AQmtMPL5Eeig3oe8XKq5LQ" name="ReceiveOperationEvent13" operation="_AQk4APL5Eeig3oe8XKq5LQ"/>
