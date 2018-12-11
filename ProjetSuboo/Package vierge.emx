@@ -491,7 +491,7 @@
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_JmuIEfI1Eei08PbxLsUlAw" id="(0.6669864260693216,0.0)"/>
         </edges>
       </contents>
-      <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_toX_4PewEeipRLrQFYusqQ" type="Class" name="BOGenerator">
+      <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_toX_4PewEeipRLrQFYusqQ" type="Class" name="BOController">
         <children xmi:type="umlnotation:UMLComponent" xmi:id="_x1pRkPewEeipRLrQFYusqQ" element="_R0ZQ8PIxEei08PbxLsUlAw" fontName="Cantarell" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
           <children xmi:type="notation:DecorationNode" xmi:id="_x1p4oPewEeipRLrQFYusqQ" type="ImageCompartment">
             <layoutConstraint xmi:type="notation:Size" xmi:id="_x1p4ofewEeipRLrQFYusqQ" width="1320" height="1320"/>
@@ -544,7 +544,7 @@
             <children xmi:type="notation:BasicDecorationNode" xmi:id="_esUyMcYqEei3m4nDcJ-92w" type="Name"/>
             <children xmi:type="notation:BasicDecorationNode" xmi:id="_esUyMsYqEei3m4nDcJ-92w" type="Parent"/>
             <children xmi:type="notation:ListCompartment" xmi:id="_esVZQMYqEei3m4nDcJ-92w" visible="false" type="Extension_Points"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_esTkEcYqEei3m4nDcJ-92w" x="9636" y="10164"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_esTkEcYqEei3m4nDcJ-92w" x="10164" y="12144"/>
           </children>
           <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_COUjsMYuEei3m4nDcJ-92w" element="_CORgYMYuEei3m4nDcJ-92w" fontName="Cantarell" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
             <children xmi:type="notation:DecorationNode" xmi:id="_COVKwMYuEei3m4nDcJ-92w" type="ImageCompartment">
@@ -554,7 +554,7 @@
             <children xmi:type="notation:BasicDecorationNode" xmi:id="_COVKw8YuEei3m4nDcJ-92w" type="Name"/>
             <children xmi:type="notation:BasicDecorationNode" xmi:id="_COVKxMYuEei3m4nDcJ-92w" type="Parent"/>
             <children xmi:type="notation:ListCompartment" xmi:id="_COVKxcYuEei3m4nDcJ-92w" visible="false" type="Extension_Points"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_COUjscYuEei3m4nDcJ-92w" x="9504" y="12540"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_COUjscYuEei3m4nDcJ-92w" x="12144" y="9372"/>
           </children>
           <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_EkRHYMYuEei3m4nDcJ-92w" element="_EkMO4MYuEei3m4nDcJ-92w" fontName="Cantarell" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
             <children xmi:type="notation:DecorationNode" xmi:id="_EkRucMYuEei3m4nDcJ-92w" type="ImageCompartment">
@@ -564,7 +564,7 @@
             <children xmi:type="notation:BasicDecorationNode" xmi:id="_EkSVgMYuEei3m4nDcJ-92w" type="Name"/>
             <children xmi:type="notation:BasicDecorationNode" xmi:id="_EkSVgcYuEei3m4nDcJ-92w" type="Parent"/>
             <children xmi:type="notation:ListCompartment" xmi:id="_EkSVgsYuEei3m4nDcJ-92w" visible="false" type="Extension_Points"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EkRHYcYuEei3m4nDcJ-92w" x="8448" y="8184"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EkRHYcYuEei3m4nDcJ-92w" x="8580" y="6732"/>
           </children>
           <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_R5rKINEiEeihY5MaxXauwA" element="_R2f6UNEiEeihY5MaxXauwA" fontName="Cantarell" fontHeight="8" fillColor="15912618" transparency="0" lineColor="15912618" lineWidth="1" showStereotype="Label">
             <children xmi:type="notation:DecorationNode" xmi:id="_R5sYQNEiEeihY5MaxXauwA" type="ImageCompartment">
@@ -726,7 +726,7 @@
               <children xmi:type="notation:ListCompartment" xmi:id="_IB_ygMYuEei3m4nDcJ-92w" type="FromConstraintCompartment"/>
               <layoutConstraint xmi:type="notation:Location" xmi:id="_IB_LgMYuEei3m4nDcJ-92w" y="1058"/>
             </children>
-            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_IB-kYcYuEei3m4nDcJ-92w" points="[-1097, -174, 8170, 2597]$[-4992, -174, 4275, 2597]$[-4992, -2247, 4275, 524]$[-9022, -2247, 245, 524]"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_IB-kYcYuEei3m4nDcJ-92w" points="[-1078, 129, 10945, -664]$[-11632, 129, 391, -664]"/>
           </edges>
           <edges xmi:type="umlnotation:UMLConnector" xmi:id="_0jVEwNEtEeihY5MaxXauwA" element="_0jKFoNEtEeihY5MaxXauwA" source="_R5rKINEiEeihY5MaxXauwA" target="_92zcQNEiEeihY5MaxXauwA" fontName="Cantarell" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
             <children xmi:type="notation:DecorationNode" xmi:id="_0jVr0NEtEeihY5MaxXauwA" type="NameLabel">
@@ -1676,7 +1676,7 @@
           </contents>
         </eAnnotations>
       </packagedElement>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_esP5sMYqEei3m4nDcJ-92w" name="Definir objectif">
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_esP5sMYqEei3m4nDcJ-92w" name="FournirBO">
         <ownedComment xmi:id="_EWAa8MuqEeikKPAJvbK7fA" annotatedElement="_esP5sMYqEei3m4nDcJ-92w">
           <body>&lt;p>Definir objectif&lt;/p>&lt;p>Acteur : Utilisateur&lt;/p>&lt;p>Préconditions: Aucune&lt;/p>&lt;p>Séquencement nominal&lt;/p>&lt;p>1. L'utilisateur choisit de definir les objectifs de sa partie&lt;/p>&lt;p>2. Le système verifie que le joueur a définit le fonctionnement du jeu&lt;/p>&lt;p>3. Le système affiche la page d'entrée des objectifs de partie&lt;/p>&lt;p>4. Le joueur entre les objectifs et valide&lt;/p>&lt;p>Enchaînement alternatifs:&lt;/p>&lt;p>A1: Le joueur n'as pas rentré le fonctionnement du jeu&lt;/p>&lt;p>L'enchainement commence après le point 2 de la séquence nominale&lt;/p>&lt;blockquote>&lt;p>3. Appel du cas &amp;lt;&amp;lt;Definir fonctionnement du jeu&amp;gt;&amp;gt;&lt;/p>&lt;/blockquote>&lt;p>La séquence nominale reprend au point 3.&lt;/p>&lt;p>&lt;/p></body>
         </ownedComment>
@@ -1749,7 +1749,7 @@
           <body>&lt;p>bLABLA&lt;/p>&lt;p>&lt;/p></body>
         </ownedComment>
       </packagedElement>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_EkMO4MYuEei3m4nDcJ-92w" name="Definir fonctionnement du jeu">
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_EkMO4MYuEei3m4nDcJ-92w" name="Definir fonctionnement et etat du jeu">
         <ownedComment xmi:id="_bjnDoMuiEeiLi7QiVm6lNA" annotatedElement="_EkMO4MYuEei3m4nDcJ-92w">
           <body>&lt;p>Definir fonctionnement du jeu&lt;/p>&lt;p>Acteur : Utilisateur&lt;/p>&lt;p>Préconditions : Aucune&lt;/p>&lt;p>&lt;/p>&lt;p>Sequence Nominal:&lt;/p>&lt;p>1. Le joueur choisit d'entrer le fonctionnement du jeu&lt;/p>&lt;p>2. Le système affiche la page d'entrée des ressources&lt;/p>&lt;p>3. Le joueur entre les differentes ressources utilisées par le jeu et valide&lt;/p>&lt;p>5. Le système affiche la page d'entrée de l'arbre de technologie&lt;/p>&lt;p>6. Le joueur entre l'arbre de technologie et valide&lt;/p>&lt;p>7. Le système affiche la page d'entrée des entitées (Constructions et unitées)&lt;/p>&lt;p>8. Le joueur entre les differentes entitées créable par le jeu en spécifiant leurs conditions de créations et valide&lt;/p>&lt;p>9. Le système demande la validation&lt;/p>&lt;p>10. Le joueur valide&lt;/p>&lt;p>Enchaînements alternatifs:&lt;/p>&lt;p>A1 : Le jeu ne contient pas d'arbre de technologie&lt;/p>&lt;blockquote>&lt;p>L'enchaînement démarre après le point 5:&lt;/p>&lt;/blockquote>&lt;blockquote>&lt;p>La séquence nominale reprend au point 7&lt;/p>&lt;/blockquote>&lt;p>Enchaînements d'éxception&lt;/p>&lt;p>Post-Conditions:&lt;/p>&lt;p>Le système à enregistré le fonctionnement du jeu &lt;/p>&lt;p>&lt;/p></body>
         </ownedComment>
@@ -3319,7 +3319,7 @@
                   <styles xmi:type="notation:TextStyle" xmi:id="_crEC0fezEeipRLrQFYusqQ"/>
                   <styles xmi:type="notation:LineTypeStyle" xmi:id="_crEC0vezEeipRLrQFYusqQ"/>
                   <element xsi:nil="true"/>
-                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_crEC0_ezEeipRLrQFYusqQ" x="19484" y="4013" width="3915" height="2081"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_crEC0_ezEeipRLrQFYusqQ" x="20936" y="3485" width="3915" height="2081"/>
                 </children>
                 <children xmi:type="umlnotation:UMLShape" xmi:id="_4-cmoPe4EeipRLrQFYusqQ" element="_4-Uq0Pe4EeipRLrQFYusqQ" fontName="Cantarell" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
                   <eAnnotations xmi:id="_4-cmove4EeipRLrQFYusqQ" source="com.ibm.xtools.uml.ui.diagram.internal.styles">
@@ -3923,7 +3923,7 @@
           <end xmi:id="_B2SxEve5EeipRLrQFYusqQ" role="_70598PL4Eeig3oe8XKq5LQ"/>
         </ownedConnector>
         <lifeline xmi:id="_56PoEPL4Eeig3oe8XKq5LQ" name="iHM" represents="_56QPIPL4Eeig3oe8XKq5LQ" coveredBy="_-KFFkPL4Eeig3oe8XKq5LQ _-KLzQPL4Eeig3oe8XKq5LQ _TC7HQPL6Eeig3oe8XKq5LQ _TC8VYvL6Eeig3oe8XKq5LQ _qiQ1sPSeEeib7rRFj26mqQ _qiSq4PSeEeib7rRFj26mqQ"/>
-        <lifeline xmi:id="_6fSO0PL4Eeig3oe8XKq5LQ" name="bOGenerator" represents="_6fS14PL4Eeig3oe8XKq5LQ" coveredBy="_-KFsoPL4Eeig3oe8XKq5LQ _-KKlIPL4Eeig3oe8XKq5LQ _-KLMMPL4Eeig3oe8XKq5LQ _CGdbkPL5Eeig3oe8XKq5LQ _CGf30fL5Eeig3oe8XKq5LQ _TC7uUPL6Eeig3oe8XKq5LQ _TC7uUfL6Eeig3oe8XKq5LQ _TC8VYPL6Eeig3oe8XKq5LQ __1PU8PL6Eeig3oe8XKq5LQ __1P8BPL6Eeig3oe8XKq5LQ _IbFwcPL7Eeig3oe8XKq5LQ _IbG-kvL7Eeig3oe8XKq5LQ _gLIowPL8Eeig3oe8XKq5LQ _gLJP0_L8Eeig3oe8XKq5LQ _IMBu0fL9Eeig3oe8XKq5LQ _IMC88_L9Eeig3oe8XKq5LQ _XpmaoPL-Eeig3oe8XKq5LQ _XpnBtPL-Eeig3oe8XKq5LQ _cbsQoPL-Eeig3oe8XKq5LQ _cbs3sPL-Eeig3oe8XKq5LQ _cbs3sfL-Eeig3oe8XKq5LQ _cbs3svL-Eeig3oe8XKq5LQ _cbtewPL-Eeig3oe8XKq5LQ _qiRcwPSeEeib7rRFj26mqQ _qiSD0PSeEeib7rRFj26mqQ _qiSD0fSeEeib7rRFj26mqQ _4Fct4PSeEeib7rRFj26mqQ _4FdU8PSeEeib7rRFj26mqQ _4FdU8fSeEeib7rRFj26mqQ _4Fd8APSeEeib7rRFj26mqQ _4FejEfSeEeib7rRFj26mqQ _E659YfSfEeib7rRFj26mqQ _E66kcPSfEeib7rRFj26mqQ _E67LgPSfEeib7rRFj26mqQ _E67LgfSfEeib7rRFj26mqQ _E67ykfSfEeib7rRFj26mqQ _mArrcPSfEeib7rRFj26mqQ _mArrcfSfEeib7rRFj26mqQ _mAsSgPSfEeib7rRFj26mqQ _mAsSgfSfEeib7rRFj26mqQ _mAs5kfSfEeib7rRFj26mqQ _xABt4PSfEeib7rRFj26mqQ _xAC8AfSfEeib7rRFj26mqQ _4rXB4PSfEeib7rRFj26mqQ _4rYQAPSfEeib7rRFj26mqQ _eMX20PeuEeiMhem0TXqdPQ _eMYd4PeuEeiMhem0TXqdPQ _eMYd4feuEeiMhem0TXqdPQ _eMYd4veuEeiMhem0TXqdPQ _eMZE8feuEeiMhem0TXqdPQ _nLklcPe5EeipRLrQFYusqQ _nLlMhPe5EeipRLrQFYusqQ"/>
+        <lifeline xmi:id="_6fSO0PL4Eeig3oe8XKq5LQ" name="bocontroller" represents="_6fS14PL4Eeig3oe8XKq5LQ" coveredBy="_-KFsoPL4Eeig3oe8XKq5LQ _-KKlIPL4Eeig3oe8XKq5LQ _-KLMMPL4Eeig3oe8XKq5LQ _CGdbkPL5Eeig3oe8XKq5LQ _CGf30fL5Eeig3oe8XKq5LQ _TC7uUPL6Eeig3oe8XKq5LQ _TC7uUfL6Eeig3oe8XKq5LQ _TC8VYPL6Eeig3oe8XKq5LQ __1PU8PL6Eeig3oe8XKq5LQ __1P8BPL6Eeig3oe8XKq5LQ _IbFwcPL7Eeig3oe8XKq5LQ _IbG-kvL7Eeig3oe8XKq5LQ _gLIowPL8Eeig3oe8XKq5LQ _gLJP0_L8Eeig3oe8XKq5LQ _IMBu0fL9Eeig3oe8XKq5LQ _IMC88_L9Eeig3oe8XKq5LQ _XpmaoPL-Eeig3oe8XKq5LQ _XpnBtPL-Eeig3oe8XKq5LQ _cbsQoPL-Eeig3oe8XKq5LQ _cbs3sPL-Eeig3oe8XKq5LQ _cbs3sfL-Eeig3oe8XKq5LQ _cbs3svL-Eeig3oe8XKq5LQ _cbtewPL-Eeig3oe8XKq5LQ _qiRcwPSeEeib7rRFj26mqQ _qiSD0PSeEeib7rRFj26mqQ _qiSD0fSeEeib7rRFj26mqQ _4Fct4PSeEeib7rRFj26mqQ _4FdU8PSeEeib7rRFj26mqQ _4FdU8fSeEeib7rRFj26mqQ _4Fd8APSeEeib7rRFj26mqQ _4FejEfSeEeib7rRFj26mqQ _E659YfSfEeib7rRFj26mqQ _E66kcPSfEeib7rRFj26mqQ _E67LgPSfEeib7rRFj26mqQ _E67LgfSfEeib7rRFj26mqQ _E67ykfSfEeib7rRFj26mqQ _mArrcPSfEeib7rRFj26mqQ _mArrcfSfEeib7rRFj26mqQ _mAsSgPSfEeib7rRFj26mqQ _mAsSgfSfEeib7rRFj26mqQ _mAs5kfSfEeib7rRFj26mqQ _xABt4PSfEeib7rRFj26mqQ _xAC8AfSfEeib7rRFj26mqQ _4rXB4PSfEeib7rRFj26mqQ _4rYQAPSfEeib7rRFj26mqQ _eMX20PeuEeiMhem0TXqdPQ _eMYd4PeuEeiMhem0TXqdPQ _eMYd4feuEeiMhem0TXqdPQ _eMYd4veuEeiMhem0TXqdPQ _eMZE8feuEeiMhem0TXqdPQ _nLklcPe5EeipRLrQFYusqQ _nLlMhPe5EeipRLrQFYusqQ"/>
         <lifeline xmi:id="_-0xEUPe5EeipRLrQFYusqQ" name="bO" represents="_-0xEUfe5EeipRLrQFYusqQ"/>
         <lifeline xmi:id="_7GKBkPL4Eeig3oe8XKq5LQ" name="gameObject" represents="_7GKBkfL4Eeig3oe8XKq5LQ" coveredBy="_CGepsPL5Eeig3oe8XKq5LQ _CGfQwPL5Eeig3oe8XKq5LQ _CGfQwfL5Eeig3oe8XKq5LQ _NvJV8PL5Eeig3oe8XKq5LQ _NvJ9APL5Eeig3oe8XKq5LQ _NvJ9AfL5Eeig3oe8XKq5LQ _NvKkEPL5Eeig3oe8XKq5LQ _NvLLIPL5Eeig3oe8XKq5LQ _XpnBsPL-Eeig3oe8XKq5LQ _XpnBsfL-Eeig3oe8XKq5LQ _XpnBsvL-Eeig3oe8XKq5LQ _4rXB4fSfEeib7rRFj26mqQ _4rXo8PSfEeib7rRFj26mqQ _4rXo8fSfEeib7rRFj26mqQ _NSLKEvevEeiMhem0TXqdPQ _NSJ78fevEeiMhem0TXqdPQ"/>
         <lifeline xmi:id="_Fky_8Pe1EeipRLrQFYusqQ" name="gameObject3" represents="_FkznAPe1EeipRLrQFYusqQ" coveredBy="_NSKjAfevEeiMhem0TXqdPQ _NSLKEPevEeiMhem0TXqdPQ _NSKjAPevEeiMhem0TXqdPQ"/>
